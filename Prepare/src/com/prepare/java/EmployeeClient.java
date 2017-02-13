@@ -15,7 +15,9 @@ public class EmployeeClient {
 		String url=p.getProperty("url");
 		String user=p.getProperty("user");
 		String pass=p.getProperty("pass");
+		//Ssgtv f
 		
+		//ghd
 		Class.forName(driver);
 		Connection con=DriverManager.getConnection(url,user,pass);
 		
